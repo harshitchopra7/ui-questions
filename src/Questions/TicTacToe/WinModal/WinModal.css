@@ -1,0 +1,20 @@
+.win-modal-container {
+    position: absolute;
+    z-index: 9;
+    /* height: 50px; */
+    width: 350px;
+    background-color: white;
+    font-size: 22px;
+    padding: 10px 20px;
+    /* background-color: red; */
+}
+
+.win-modal-close-icon {
+    text-align: right;
+    cursor: pointer;
+}
+
+.win-modal-description {
+    text-align: center;
+    margin-bottom: 10px;
+}

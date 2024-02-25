@@ -1,0 +1,13 @@
+.tic-tac-toe-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #696969;
+}
+
+.tic-tac-toe-tiles-container {
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+} 
