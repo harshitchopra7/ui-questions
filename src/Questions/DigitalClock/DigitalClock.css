@@ -1,0 +1,22 @@
+.digital-clock-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #696969;
+    height: 100vh;
+}
+
+.digital-clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 44px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+.digital-clock-colon {
+    margin: 0 10px;
+}
