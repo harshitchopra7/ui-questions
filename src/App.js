@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import TrafficLight from "./Questions/TrafficLight/TrafficLight";
 import TicTacToe from "./Questions/TicTacToe/TicTacToe";
 import DigitalClock from "./Questions/DigitalClock/DigitalClock";
+import StarRating from "./Questions/StarRating/StarRating";
 
 function App() {
   const router = createBrowserRouter([
@@ -25,6 +26,10 @@ function App() {
     {
       path: "/digital-clock",
       element: <DigitalClock />,
+    },
+    {
+      path: "/star-rating",
+      element: <StarRating />,
     },
   ]);
 
