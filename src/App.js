@@ -4,6 +4,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // components
+import Home from "./components/Home/Home";
 import TrafficLight from "./Questions/TrafficLight/TrafficLight";
 import TicTacToe from "./Questions/TicTacToe/TicTacToe";
 import DigitalClock from "./Questions/DigitalClock/DigitalClock";
@@ -13,7 +14,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <div>Heyaaaaa!</div>,
+      element: <Home />,
     },
     {
       path: "/traffic-light",
