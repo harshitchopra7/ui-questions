@@ -14,6 +14,7 @@ function TrafficLight() {
       config[LIGHTS.RED].timeDuration,
       setCurrentLightAsYellow
     );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const scheduleTrafficLight = (time, cb) => {
