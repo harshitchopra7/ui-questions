@@ -7,12 +7,11 @@ import "./DigitalClock.css";
 import { getDateAndTime } from "./helper";
 
 function DigitalClock() {
-  const { hours, minutes, seconds, todaysDate } = getDateAndTime();
+  const { hours, minutes, seconds } = getDateAndTime();
 
   const [hrs, setHrs] = useState(hours);
   const [mins, setMins] = useState(minutes);
   const [secs, setSecs] = useState(seconds);
-  const [date, setDate] = useState(todaysDate);
 
   const runClock = () => {
     setTimeout(() => {
